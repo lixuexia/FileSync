@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FTP_ROOT>
+	<!--目标站点-->
+	<FTP_AIM>
+    <FTP_SITELIST NAME="test11.cc" LOCALPATH="E:/MY/trunk/Res/Img" LOCALBAKTRANSFOLDER="D:/BAKTRANS">
+      <!--服务器别名，IP地址，端口号，传输缓存文件夹，文件备份根目录,用户名，密码-->
+      <Aim_Server NAME="DEMOEBS_11" IP="192.168.1.11" PORT="21" TRANSFOLDER="FTF" FILEBAKROOT="BACK_DEMOEBS_11" USER="WEB" PASS="test11.com" DIRPATH="IMG">
+      </Aim_Server>
+    </FTP_SITELIST>
+    <FTP_SITELIST NAME="test1.cc" LOCALPATH="E:/MY/trunk/Web/Publish" LOCALBAKTRANSFOLDER="D:/BAKTRANS">
+      <!--服务器别名，IP地址，端口号，传输缓存文件夹，文件备份根目录,用户名，密码-->
+      <Aim_Server NAME="DEMOEBS_12" IP="192.168.1.12" PORT="21" TRANSFOLDER="FTF" FILEBAKROOT="BACK_DEMOEBS_12" USER="WEB" PASS="test12.com" DIRPATH="Admin12">
+      </Aim_Server>
+      <Aim_Server NAME="DEMOEBS_13" IP="192.168.1.13" PORT="21" TRANSFOLDER="FTF" FILEBAKROOT="BACK_DEMOEBS_13" USER="WEB" PASS="test13.com" DIRPATH="Admin13">
+      </Aim_Server>
+    </FTP_SITELIST>
+	</FTP_AIM>
+	<!--传输超时时间-->
+	<FTP_TIMEOUT VALUE="10000">
+	</FTP_TIMEOUT>
+	<!--控制服务器日之记录根目录-->
+	<FTP_LOG VALUE="D:/FTP_LOG/">
+	</FTP_LOG>
+</FTP_ROOT>

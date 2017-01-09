@@ -1,0 +1,122 @@
+BODY {	
+	FONT-SIZE: 12px; 	
+	CURSOR: default; 	
+	COLOR: #000000;	
+	font-family:Arial,宋体;
+}
+INPUT.buttonface {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BACKGROUND: #d4d0c8; BORDER-BOTTOM-WIDTH: 1px; CURSOR: default; COLOR: #000000; FONT-FAMILY: 宋体,verdana,Arial, Helvetica; BORDER-RIGHT-WIDTH: 1px; TEXT-DECORATION: none
+}
+TEXTAREA.MultiLineText {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-BOTTOM-WIDTH: 1px; CURSOR: text; COLOR: #000000; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 1px; TEXT-DECORATION: none; FOTN-FAMILY: 宋体,verdana,Arial, Helvetica
+}
+INPUT.smallInput {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-BOTTOM-WIDTH: 1px; CURSOR: text; COLOR: #000000; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 1px; TEXT-DECORATION: none; FOTN-FAMILY: 宋体,verdana,Arial, Helvetica
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; LINE-HEIGHT: 26px; FONT-FAMILY: 宋体
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 21px; FONT-FAMILY: 宋体
+}
+TH {
+	FONT-SIZE: 12px; LINE-HEIGHT: 21px; FONT-FAMILY: 宋体
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: #00779e; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #00779e; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 9pt; COLOR: #00779e; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #ff8000; TEXT-DECORATION: blink
+}
+A.MenuLike:link {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.MenuLike:visited {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.MenuLike:active {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.MenuLike:hover {
+	FONT-SIZE: 9pt; COLOR: #ff8000; TEXT-DECORATION: blink; 
+}
+.td_line_down{border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px;}
+.Product_Edit_NoSelect
+{
+    border-left-width: 1px;
+     border-right-width: 1px;
+      border-top-width: 1px;
+      padding-bottom:3px;
+}
+.Product_Edit_Selected
+{
+	border-right:solid 1px #CCC;
+	border-top:solid 1px #CCC;
+	font-weight: bold;
+	font-size: 11pt;
+	border-left:solid 1px #CCC;
+	border-bottom:solid 1px #FFF;
+	padding:3px;
+}
+.layer1 { FONT-SIZE: 9pt; FILTER: progid:DXImageTransform.Microsoft.Shadow(color=#666666,Strength=3,direction=135); COLOR: black; FONT-FAMILY: 宋体; BACKGROUND-COLOR: lavender }
+div span{ border-bottom:solid 1px #CCC; height:21px; line-height:27px;}
+
+.onMouseOverStyle{ cursor:pointer; background-color:#ECECEC;}
+#PropertyList
+{
+    width:98%;
+    text-align:center;
+    border-collapse:collapse;
+    }
+#PropertyList tr td
+{
+    border:solid 1px #CCC;
+    }
+    #PropertyList tr td span{ padding:3px; border:none; margin:0px 3px 0px 3px;}
+    
+    .input
+    {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-right-color: #AAA;
+	border-bottom-color: #AAA;
+	border-left-color: #666666;
+		}
+.tips{ color:#D08609;}
+#tb_top{height:30px; background-color:#FFCC00;border-bottom:solid 1px #333;}
+#tb_body{width:100%;overflow:auto; overflow-x:hidden;}
+.tb_head_th{border-bottom:solid #333 1px; background-color:#999;}
+.tb_head_th th,.tb_head_th td{ background-color:#eee}
+.tb_cap{font-size:14px; font-weight:bold; width:40%;float:left; overflow:hidden; padding-left:5px;}
+.tb_tools{width:59%;float:right; text-align:right;overflow:hidden; }
+.tb_tools a{width:100px;display:block; height:22px; line-height:22px; margin-top:2px; border:solid 1px #fff; text-align:center;float:right; margin-left:10px;}
+
+
+.SyncFolder
+{
+	border:0;
+	margin:0 2px -3px 5px;
+	padding:0;
+}
+.SyncFile
+{
+	border:0;
+	margin:0 2px -3px 5px;
+	padding:0;
+}
